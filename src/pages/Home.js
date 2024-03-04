@@ -8,6 +8,7 @@ const Home = () => {
 			<p>가장 먼저 보여지는 페이지</p>
 			<Link to="/about">소개</Link> | <Link to="/profiles/user1">user1 프로필</Link> |
       <Link to="/profiles/user2">user2 프로필</Link> | <Link to="/profiles/user3">user3 프로필</Link>
+      | <Link to="/articles">게시글 목록</Link>
 		</div>
 	);
 };
